@@ -200,6 +200,11 @@ GameObject:
   - component: {fileID: 1545854663}
   - component: {fileID: 1545854662}
   - component: {fileID: 1545854664}
+  - component: {fileID: 1545854667}
+  - component: {fileID: 1545854666}
+  - component: {fileID: 1545854665}
+  - component: {fileID: 1545854668}
+  - component: {fileID: 1545854669}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -280,8 +285,67 @@ MonoBehaviour:
   rotationSpeed: 0
   blueColor: {r: 0, g: 0, b: 0, a: 0}
   rend: {fileID: 1545854662}
-  shipSpeed: 0
   greenColor: {r: 0, g: 0, b: 0, a: 0}
-  slowShipSpeed: 0
-  timer: 0
-  timerStart: 0
+  shipRandomColor1: 0
+  shipColorBase: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1545854665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c893fcaed7436814ca67b380a2aefff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+--- !u!114 &1545854666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28e62e9ac2b2b34c911b285322a3233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Timer: 0
+--- !u!114 &1545854667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339e98477749ccf4790a133c83c1b87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1545854668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fe10fd3bb6ff04386b28e25fd276fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipSpeed: 0
+--- !u!114 &1545854669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d190596a23ed7048a8de9b66a784447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ySpawn: 0
+  xSpawn: 0
+  pos: {x: 0, y: 0}
