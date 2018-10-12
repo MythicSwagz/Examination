@@ -286,8 +286,6 @@ MonoBehaviour:
   blueColor: {r: 0, g: 0, b: 0, a: 0}
   rend: {fileID: 1545854662}
   greenColor: {r: 0, g: 0, b: 0, a: 0}
-  shipRandomColor1: 0
-  shipColorBase: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1545854665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c893fcaed7436814ca67b380a2aefff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
+  rend: {fileID: 1545854662}
 --- !u!114 &1545854666
 MonoBehaviour:
   m_ObjectHideFlags: 0

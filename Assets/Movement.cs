@@ -9,8 +9,8 @@ public class Movement : MonoBehaviour
     public Color blueColor;
     public SpriteRenderer rend;
     public Color greenColor;
-    public float shipRandomColor1;
-    public Color shipColorBase;
+   
+   
     // Use this for initialization
     void Start()
     {
