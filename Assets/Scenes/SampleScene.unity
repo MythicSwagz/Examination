@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 1545854665}
   - component: {fileID: 1545854668}
   - component: {fileID: 1545854669}
+  - component: {fileID: 1545854670}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -347,3 +348,18 @@ MonoBehaviour:
   ySpawn: 0
   xSpawn: 0
   pos: {x: 0, y: 0}
+--- !u!114 &1545854670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545854661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560375cf4deca324894f6cad8451ab49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseColorRed: 0
+  pulseColorGreen: 0
+  pulseColorBlue: 0
+  pulseColor: {r: 0, g: 0, b: 0, a: 0}
